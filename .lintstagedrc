@@ -1,0 +1,5 @@
+{
+  "*.{ts,tsx,vue}": "yarn lint:scripts",
+  "*.{css,scss,vue}": "stylelint --fix",
+  "*": "prettier -w -u"
+}

@@ -10,16 +10,6 @@
     "lint:styles": "stylelint **/*.{html,vue,css,scss}",
     "format": "prettier .  --write"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,vue}": "yarn lint:scripts",
-    "*.{css,scss,vue}": "stylelint --fix",
-    "*": "prettier -w -u"
-  },
   "dependencies": {
     "@babel/core": "^7.19.3",
     "sass": "^1.55.0",
