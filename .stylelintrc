@@ -1,7 +1,15 @@
 {
+  "plugins": ["stylelint-order", "stylelint-prettier", "stylelint-scss"],
+  "customSyntax": "postcss-html",
   "extends": [
-    "stylelint-config-recommended",
-    "stylelint-config-standard",
-    "stylelint-config-recommended-scss"
-  ]
+    "stylelint-config-recommended-vue",
+    "stylelint-config-css-modules",
+    "stylelint-config-html",
+    "stylelint-config-standard-scss",
+    "stylelint-prettier/recommended",
+    "stylelint-order-config-standard"
+  ],
+  "rules": {
+    "prettier/prettier": true
+  }
 }
