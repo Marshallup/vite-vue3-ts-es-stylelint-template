@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint:scripts": "eslint --ext .ts,vue --ignore-path .gitignore .",
     "lint:styles": "stylelint **/*.{html,vue,css,scss}",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@babel/core": "^7.19.3",

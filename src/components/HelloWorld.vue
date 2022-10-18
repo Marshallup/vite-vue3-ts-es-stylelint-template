@@ -2,9 +2,9 @@
   import { ref } from 'vue'
   defineProps<{ msg: string }>()
 
-  const count = ref(1)
+  const count = ref(12323)
 
-  const ff = reactive(['211322q2'])
+  // const ff = reactive(['211q322q2'])
 </script>
 
 <template>
