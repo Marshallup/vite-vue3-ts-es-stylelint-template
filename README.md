@@ -1,4 +1,4 @@
-# Vue 3 + TypeScript + Vite + Pini + Stylelint
+# Vue 3 + TypeScript + Vite + Pinia + Stylelint + Eslint
 
 Шаблон для приложений
 
