@@ -16,7 +16,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,vue}": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",
+    "*.{ts,tsx,vue}": "yarn lint:scripts",
     "*.{css,scss,vue}": "stylelint --fix",
     "*": "prettier -w -u"
   },

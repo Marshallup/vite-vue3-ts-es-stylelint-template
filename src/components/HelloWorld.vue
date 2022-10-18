@@ -4,7 +4,7 @@
 
   const count = ref(1)
 
-  const ff = reactive(['2'])
+  const ff = reactive(['21'])
 </script>
 
 <template>
