@@ -11,6 +11,8 @@
     // For Stylelint
     "source.fixAll.stylelint": true
   },
-  "stylelint.validate": ["html", "vue"],
+  // stylelint bug 14 version with vue and *.css/scss files
+  "stylelint.validate": ["scss", "postcss", "css"],
+  "stylelint.snippet": ["scss", "postcss", "css"],
   "stylelint.configBasedir": "./"
 }
