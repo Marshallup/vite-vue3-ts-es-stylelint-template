@@ -11,5 +11,11 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  plugins: [vue(), eslint(), StylelintPlugin()],
+  plugins: [
+    vue(),
+    eslint(),
+    StylelintPlugin({
+      exclude: ['**/*.vue'],
+    }),
+  ],
 })
