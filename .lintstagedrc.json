@@ -1,4 +1,4 @@
 {
   "*.{ts,tsx,vue}": "yarn lint:scripts",
-  "*.{css,scss,vue}": "yarn lint:styles"
+  "*.{css,scss,vue}": "yarn lint:styles --fix"
 }
