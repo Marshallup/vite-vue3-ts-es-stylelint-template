@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 import eslint from 'vite-plugin-eslint'
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import checker from 'vite-plugin-checker'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import StylelintPlugin from 'vite-plugin-stylelint'
@@ -17,6 +18,7 @@ export default defineConfig({
   plugins: [
     vue(),
     eslint(),
+    checker({ vueTsc: true }),
     vueJsx(),
     StylelintPlugin({
       exclude: ['**/*.vue'],
